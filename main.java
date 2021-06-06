@@ -68,8 +68,6 @@ public class main extends JFrame {
               System.out.println("La colonne choisi est pleine, recommencez.");
             }
         } while ( (choix>7 || choix<1) || grille[choix-1][0]!=0);
-      // methode validation partie gagné par J1 arret jeu
-
       // Joueur 2
       // choixColonne();
       do {
@@ -101,7 +99,6 @@ public class main extends JFrame {
               System.out.println("La colonne choisi est pleine, recommencez.");
             }
       } while (choix>7 || choix<1 || grille[choix-1][0]!=0);
-      //  methode validation partie gagné par J2 arret joueur
       tour++;
     } while (tour <= 21);
 
@@ -167,5 +164,6 @@ public class main extends JFrame {
       }
       System.out.println();
     }
+    System.out.println("************************************************");
   }
 }
