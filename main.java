@@ -2,7 +2,7 @@ import java.util.Scanner;
 import javax.swing.*;
 import java.awt.*;
 import java.io.IOException;
-public class main extends JFrame {
+public class main{
   static Scanner saisie;
   private static int[][] grille;
   private static int[] menu;
